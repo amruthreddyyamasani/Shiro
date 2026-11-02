@@ -1,0 +1,11 @@
+# Runtime and test dependencies already used by this checkout.
+# Versions reflect the existing local environment; no dependency upgrade was
+# performed as part of repository preparation.
+fastapi==0.162.0
+httpx==0.28.1
+pydantic==2.14.2
+pytest==8.4.2
+uvicorn==0.54.0
+
+# Screen capture uses the Windows GDI/DXGI path and needs no extra package.
+# Ollama is a separate local application, not a Python dependency.

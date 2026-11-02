@@ -1,0 +1,69 @@
+# Python environments, caches, coverage, and compiled files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node/Vite dependencies and generated output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Machine-local configuration and secrets
+config.json
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.p12
+*.pfx
+
+# Local runtime databases and SQLite journals
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+data/
+
+# Runtime logs, process captures, and local tool output
+*.log
+*.bin
+__logs__/
+frontend/frontend_tsc_stderr.txt
+
+# Screenshots and generated benchmark workspaces/results
+screenshots/
+benchmark_workspace/
+BENCHMARK-RESULTS.json
+AGENT-BENCHMARK.md
+benchmark_log.jsonl
+
+# Machine-specific legacy/experimental harnesses
+__x.py
+benchmark_runner.py
+run_benchmarks.py
+generate_benchmark_results.py
+run_qa_audit.py
+
+# Codex/desktop-session metadata
+.cloud-attachments/
+.freebuff/
+ANTIGRAVITY-HANDOFF-AUDIT.md
+
+# Editor and operating-system metadata
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db

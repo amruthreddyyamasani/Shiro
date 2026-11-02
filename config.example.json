@@ -1,0 +1,19 @@
+{
+  "app_name": "Shiro",
+  "host": "127.0.0.1",
+  "port": 8000,
+  "ollama_base_url": "http://127.0.0.1:11434",
+  "ollama_model": "shiro:latest",
+  "personality_mode": "adaptive",
+  "approved_roots": [],
+  "max_file_size_bytes": 1000000,
+  "max_tool_calls_per_task": 20,
+  "max_task_execution_seconds": 300,
+  "max_step_retries": 2,
+  "database_path": "%LOCALAPPDATA%/SHIRO/data/shiro.db",
+  "project_root": ".",
+  "request_timeout_seconds": 120,
+  "max_history_messages": 24,
+  "thinking_enabled": false,
+  "allow_tools": false
+}
